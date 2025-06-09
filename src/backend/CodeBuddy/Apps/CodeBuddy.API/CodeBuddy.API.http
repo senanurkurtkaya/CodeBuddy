@@ -1,0 +1,6 @@
+@CodeBuddy.API_HostAddress = http://localhost:5183
+
+GET {{CodeBuddy.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

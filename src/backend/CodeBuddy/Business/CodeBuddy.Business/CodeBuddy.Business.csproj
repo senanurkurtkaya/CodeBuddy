@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="CQRS\Questions\" />
+    <Folder Include="CQRS\Tags\DTOs\" />
+    <Folder Include="CQRS\Tags\Queries\" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="11.10.0" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
+		<PackageReference Include="Mapster.EFCore" Version="5.1.1" />
+		<PackageReference Include="MediatR" Version="12.4.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Data\CodeBuddy.DataAccess\CodeBuddy.DataAccess.csproj" />
+	  <ProjectReference Include="..\..\Infrastructure\CodeBuddy.Infrastructure.Elastic\CodeBuddy.Infrastructure.Elastic.csproj" />
+	</ItemGroup>
+
+</Project>
