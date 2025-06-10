@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBuddy.Infrastructure.Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBuddy.Infrastructure.Elastic", "Infrastructure\CodeBuddy.Infrastructure.Elastic\CodeBuddy.Infrastructure.Elastic.csproj", "{DB09A0A0-4EF3-4786-9CA3-DBE849F7DB10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBuddy.DataAccess.Elastic", "Data\CodeBuddy.DataAccess.Elastic\CodeBuddy.DataAccess.Elastic.csproj", "{44487AA3-4089-49BA-97D2-C7F62BCDDEB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{DB09A0A0-4EF3-4786-9CA3-DBE849F7DB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB09A0A0-4EF3-4786-9CA3-DBE849F7DB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB09A0A0-4EF3-4786-9CA3-DBE849F7DB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44487AA3-4089-49BA-97D2-C7F62BCDDEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44487AA3-4089-49BA-97D2-C7F62BCDDEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44487AA3-4089-49BA-97D2-C7F62BCDDEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44487AA3-4089-49BA-97D2-C7F62BCDDEB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,5 +72,6 @@ Global
 		{46A33F6D-E952-441A-AE58-93EBB8C98818} = {FF6796D8-0A23-4F1F-B2BD-0DB01DA157E7}
 		{B9C5F3B3-A17A-4614-BC8A-751D1CB61B03} = {FBF21BA9-8BC4-4A5D-BC52-654B5D76321D}
 		{DB09A0A0-4EF3-4786-9CA3-DBE849F7DB10} = {FBF21BA9-8BC4-4A5D-BC52-654B5D76321D}
+		{44487AA3-4089-49BA-97D2-C7F62BCDDEB0} = {6F0B4446-0447-49A9-BD29-C06241636335}
 	EndGlobalSection
 EndGlobal

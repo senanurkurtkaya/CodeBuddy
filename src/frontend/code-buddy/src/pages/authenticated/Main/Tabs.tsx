@@ -21,8 +21,6 @@ export function Tabs() {
         }
     }, [location])
 
-    useEffect(() => { console.log("current", current) }, [current])
-
     const handleTabChange = (tab: string) => {
         navigate(`/${tab}`)
     }

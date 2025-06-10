@@ -1,4 +1,6 @@
-﻿using Elastic.Clients.Elasticsearch;
+﻿using CodeBuddy.Infrastructure.Elastic.Client;
+
+using Elastic.Clients.Elasticsearch;
 using Elastic.Transport;
 
 using Microsoft.Extensions.DependencyInjection;
@@ -13,6 +15,7 @@ namespace CodeBuddy.Infrastructure.Elastic
                 .Authentication(new ApiKey(apiKey));
 
             services.AddSingleton(settings);
+            services.AddScoped<IElasticClient, ElasticClient>();
 
             return services;
         }

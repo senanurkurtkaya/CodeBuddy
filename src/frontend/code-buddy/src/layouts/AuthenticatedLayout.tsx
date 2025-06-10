@@ -14,6 +14,7 @@ export function AuthenticatedLayout() {
 
 const MainPage = React.lazy(() => import("../pages/authenticated/Main/Main"));
 const QuestionsFeedPage = React.lazy(() => import("../pages/authenticated/Main/QuestionsFeed"));
+const CreateQuestionPage = React.lazy(() => import("../pages/authenticated/CreateQuestion/CreateQuestion"));
 
 export const authenticatedRoutes: RouteConfig = {
     path: "/",
@@ -38,5 +39,9 @@ export const authenticatedRoutes: RouteConfig = {
                 }
             ]
         },
+        {
+            path: "questions/create",
+            element: <CreateQuestionPage />
+        }
     ]
 }

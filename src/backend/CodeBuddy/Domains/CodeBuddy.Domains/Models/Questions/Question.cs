@@ -8,16 +8,11 @@ namespace CodeBuddy.Domains.Models.Questions
     {
         private readonly List<Tag> _tags = new List<Tag>();
 
-        public Question() : base()
-        {
-            Status = QuestionStatus.Created;
-        }
-
-        public Question(string title, string content, QuestionStatus status)
+        public Question(string title, string content)
         {
             Title = title;
             Content = content;
-            Status = status;
+            Status = QuestionStatus.Created;
         }
 
         public string Title { get; private set; }

@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CQRS\Questions\" />
     <Folder Include="CQRS\Tags\DTOs\" />
     <Folder Include="CQRS\Tags\Queries\" />
   </ItemGroup>
