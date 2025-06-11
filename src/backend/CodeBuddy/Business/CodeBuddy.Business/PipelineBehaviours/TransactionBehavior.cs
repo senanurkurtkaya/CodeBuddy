@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using CodeBuddyBusiness.PipelineBehaviours.VoidBehaviors;
-using CodeBuddyDataAccess.Helpers;
+using CodeBuddy.DataAccess.Helpers;
 
 using System;
 using System.Collections.Generic;

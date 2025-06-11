@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using CodeBuddyDataAccess.Helpers;
+using CodeBuddy.DataAccess.Helpers;
 
 using System.Reflection;
 using System.Data;

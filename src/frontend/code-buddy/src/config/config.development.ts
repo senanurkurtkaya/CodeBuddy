@@ -4,10 +4,10 @@ import type { EnvConfig } from "./shared";
 export const config: EnvConfig = {
     baseUrl: "https://localhost:7001",
     authConfig: {
-        domain: "dev-f86zx4oetjvdqet6.us.auth0.com",
-        clientId: "Ppx11vgXltVI9rxPxGozt8kIdggZ7uf0",
+        domain: "dev-fbd3mx3pguvhbzu6.us.auth0.com",
+        clientId: "J1Imkya7FVoMrOpDliiIsRQpSsKikI8Q",
         redirectUri: window.location.origin,
-        audience: "https://dineflow.com",
+        audience: "https://codebuddy.com",
         scopes: [
             "openid", 
             "profile", 
